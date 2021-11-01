@@ -1,0 +1,78 @@
+/* ! 1 em = 16px : browser default font zise */
+
+/* Bellow 1344px (smaller Desktops)s */
+
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4.8rem;
+  }
+  .slider-img {
+    width: 35%;
+  }
+}
+
+/* Bellow 1200px /16px  = 75em (Landscape tablets) */
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 0.5525 = 56% */
+    font-size: 56.25%;
+  }
+  .full-width {
+    height: 70vh;
+  }
+  
+  .about-us-section {
+    padding-bottom: 0;
+  }
+
+  .about-us-description {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+
+  .about-us-img img {
+    height: 90%;
+  }
+
+  .header {
+    padding-top: 3rem;
+  }
+  
+}
+/* Bellow 944px /16px  = 59em (tablets) */
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.50 = 50% */
+    font-size: 50%;
+  }
+  .full-width {
+    height: 60vh;
+  }
+  
+  .about-us-description {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+  }
+
+  .about-us-img img {
+    height: 80%;
+  }
+
+  .header {
+    padding-top: 2.5rem;
+  }
+
+  .our-portfolios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* MOBILE NAVIGATION  */
+
+.btn-mobile-nav{
+  display: block;
+}
+
+}
+
